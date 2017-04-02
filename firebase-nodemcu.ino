@@ -1,10 +1,10 @@
 #include <ESP8266WiFi.h>
 #include <FirebaseArduino.h>
 
-#define FIREBASE_HOST "api-project-547390180617.firebaseio.com"
-#define FIREBASE_KEY "12scwmtVYceHitJNXZXdHPwMxTKmR5hLhf5F13Lo"
-#define WIFI_SSID       "kark"
-#define WIFI_PASSWORD   "0000000a"
+#define FIREBASE_HOST "your-project.firebaseio.com"
+#define FIREBASE_KEY "<FIREBASE_KEY>"
+#define WIFI_SSID       "WIFI_SSID"
+#define WIFI_PASSWORD   "PASSWORD_SSID"
 
 void setup() {
   Serial.begin(9600);
